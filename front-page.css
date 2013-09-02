@@ -1,0 +1,178 @@
+/**
+ * Front Page Stylesheet
+ * This is only loaded when using the front-page.php page template
+ *
+ * @since 0.1
+ */
+
+/**
+* Featured slider
+************************************************/
+#slider-container {
+	background: #000;
+	border-bottom: 10px solid #ddd;
+	color: #fff;
+	height: 325px;
+	margin: -20px 0 20px -20px;
+	overflow: hidden;
+	padding: 20px;
+	position: relative;
+	width: 600px;
+	}
+#slider {
+	overflow: hidden;
+	width: 580px;
+	height: 325px;
+	}
+.feature {
+	overflow: hidden;
+	width: 580px;
+	height: 325px;
+	padding: 0;
+	border: none !important;
+	}
+.feature a {
+	color: #fff;
+	}
+.feature-image-container {
+	text-align: center;
+}
+.feature-image-container a {
+	height: 335px;
+}
+.feature img {
+	border: 5px solid #333;
+	margin: 0 0 0 10px;
+	max-width: 300px;
+	max-height: 300px;
+	float: right;
+	vertical-align: bottom;
+	}
+#slider .feature .entry-title {
+	font-size: 21px;
+	}
+#slider .feature .entry-title a {
+	color: #fff;
+	}
+.feature .byline {
+	color: #aaa;
+	margin-bottom: 15px;
+	}
+.more-link {
+	float: left;
+	text-indent: -9999px;
+	width: 100px;
+	height: 20px;
+	display: block;
+	background: url(images/more-link.gif) no-repeat 0 0;
+	}
+.more-link:hover {
+	background: url(images/more-link.gif) no-repeat 0 -20px;
+	}
+
+/* Slider controls */
+.slider-controls { bottom: 10px; position: absolute; right: 30px; z-index: 8888; }
+.slider-controls a { border-bottom:1px solid #666; border-right:1px solid #666; background: #000; color: #999; font-size: 10px; font-weight: normal; text-decoration: none; margin: 0 3px; padding: 2px 8px;  }
+.slider-controls a.activeSlide { background: #f9f9f9; color: #000; }
+.slider-controls a:focus { outline: none; }
+
+/**
+* Featured excerpts
+************************************************/
+#excerpts {
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+#excerpts .post {
+	margin: 0 5px !important;
+	padding: 5px;
+	width: 46%;
+}
+#excerpts .post.odd {
+	clear: left;
+	float: left;
+}
+#excerpts .post.even {
+	clear: right;
+	float: right;
+}
+#excerpts .entry-summary {
+	font-size: 11px;
+}
+#excerpts .post .thumbnail {
+	margin: 0 10px 10px 0;
+}
+.content .entry-title, #content .entry-title {
+	margin-bottom: 3px;
+	font-weight: bold;
+	}
+.byline {
+	margin-bottom: 3px;
+	}
+
+.post {
+	border-top: 1px solid #ddd;
+	}
+
+.page-template-front-page .entry-meta {
+	display: none;
+	}
+
+/**
+* Headlines
+************************************************/
+.section-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid #777;
+	}
+.section-title a {
+	color: #000;
+	}
+#headlines .section-title {
+	}
+#headlines {
+	background: #444;
+	margin: -20px -20px 0;
+	padding: 20px;
+	overflow: hidden;
+	}
+
+#headlines .section {
+	-moz-border-radius:5px;
+	background: #555;
+	border: 1px solid #666;
+	overflow: hidden;
+	width: 260px;
+	margin: 0 0 20px;
+	padding: 10px;
+	}
+#headlines .section a {
+	color: #fff;
+	}
+#headlines .even {
+	float: right;
+	clear: none;
+	}
+#headlines .odd {
+	clear: both;
+	float: left;
+	}
+#headlines ul {
+	font-size: 11px;
+	margin-left: 5px;
+	}
+#headlines ul li {
+	background: none;
+	padding: 0;
+	}
+
+#content .post, .content .post {
+	clear: both;
+	margin-bottom: 20px;
+	}
+.wp-pagenavi, .navigation-links {
+	display: none;
+	}
